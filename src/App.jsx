@@ -14,8 +14,8 @@ function App() {
         <Button className="morado">Morado</Button>
         <Button className="naranja">Naranja</Button>
       </div>
-      <div className="header">
-        <p>Header</p>
+      <div className="footer">
+        <h1>Footer</h1>
       </div>
     </>
   );
