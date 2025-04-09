@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@import "./assets/styles/btn.css";
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,35 +17,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* * {
+  border: 1px solid red;
+} */
 
 
 
-@layer components {
-  .azul {
-    @apply bg-blue-500 p-2 rounded-lg hover:bg-blue-600;
-  }
 
-  .verde {
-    @apply bg-green-500 p-2 rounded-lg hover:bg-green-600;
-  }
-
-  .rojo {
-    @apply bg-red-500 p-2 rounded-lg hover:bg-red-600;
-  }
-
-  .amarillo {
-    @apply bg-yellow-500 p-2 rounded-lg hover:bg-yellow-600;
-  }
-
-  .morado {
-    @apply bg-purple-500 p-2 rounded-lg hover:bg-purple-600;
-  }
-
-  .naranja {
-    @apply bg-orange-500 p-2 rounded-lg hover:bg-orange-600;
-  }
-
-}
 
 
 
@@ -51,15 +31,16 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    /* color: #213547; */
+    background-color: #88898f;
   }
 
   a:hover {
     color: #747bff;
   }
 
-  button {
-    background-color: #f9f9f9;
+  .text-light {
+    color: #213547;
   }
+
 }

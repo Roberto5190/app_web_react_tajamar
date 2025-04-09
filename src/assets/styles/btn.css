@@ -1,0 +1,26 @@
+@layer components {
+    .azul {
+        @apply bg-blue-500 p-2 rounded-lg hover:bg-blue-600;
+    }
+
+    .verde {
+        @apply bg-green-500 p-2 rounded-lg hover:bg-green-600;
+    }
+
+    .rojo {
+        @apply bg-red-500 p-2 rounded-lg hover:bg-red-600;
+    }
+
+    .amarillo {
+        @apply bg-yellow-500 p-2 rounded-lg hover:bg-yellow-600;
+    }
+
+    .morado {
+        @apply bg-purple-500 p-2 rounded-lg hover:bg-purple-600;
+    }
+
+    .naranja {
+        @apply bg-orange-500 p-2 rounded-lg hover:bg-orange-600;
+    }
+
+}
