@@ -36,11 +36,15 @@
   }
 
   a:hover {
-    color: #747bff;
+    color: #413ef1;
   }
 
   .text-light {
     color: #213547;
+  }
+  .footer_links {
+    color: #132a36;
+    font-weight: bold;
   }
 
 }

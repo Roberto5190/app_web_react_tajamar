@@ -20,7 +20,7 @@ export const ProductCard = ({ src, alt, title, description }) => {
   console.log(isLiked);
 
   return (
-    <div className="product-card relative flex flex-col justify-between bg-gray-700 mt-4 rounded-xl p-4 text-left min-w-16">
+    <div className="product-card relative flex flex-col justify-between bg-gray-700 mt-4 rounded-xl p-4 text-left min-w-16 hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-gray-900">
       <h3 className="font-bold text-lg">{title}</h3>
       <p className="text-sm text-gray-400 mb-4">{description}</p>
 
