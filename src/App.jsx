@@ -24,7 +24,7 @@ function App() {
     };
 
   return (
-    <div className='flex flex-col items-center justify-between max-w-1028 mt-12' >
+    <div className='flex flex-col items-center justify-between max-w-1028 mt-12 min-h-screen' >
 
       <h1 className="text-5xl text-light font-[Poppins] font-bold mb-10">Blog de Gatos</h1>
       {/* <Button className="azul">Azul</Button>
