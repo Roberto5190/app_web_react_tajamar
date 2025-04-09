@@ -6,6 +6,8 @@ import './index.css';
 import { ProductCard } from './components/ProductCard';
 import SearchBar from './components/SearchBar';
 import { Footer } from './components/Footer';
+import './gsap/animations';
+
 
 
 function App() {
@@ -31,7 +33,6 @@ function App() {
       <Button className="amarillo">Amarillo</Button>
       <Button className="morado">Morado</Button>
       <Button className="naranja">Naranja</Button> */}
-
 
       <SearchBar  onSearch={handleSearch} />
 
