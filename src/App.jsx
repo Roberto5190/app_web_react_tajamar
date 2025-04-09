@@ -5,6 +5,7 @@ import { gatosDb } from './db/gatos_db';
 import './index.css';
 import { ProductCard } from './components/ProductCard';
 import SearchBar from './components/SearchBar';
+import { Footer } from './components/Footer';
 
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
     };
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline mb-10">Blog de Gatos</h1>
+    <div className='flex flex-col items-center justify-between max-w-1028 mt-12' >
+
+      <h1 className="text-5xl text-light font-[Poppins] font-bold mb-10">Blog de Gatos</h1>
       {/* <Button className="azul">Azul</Button>
       <Button className="verde">Verde</Button>
       <Button className="rojo">Rojo</Button>
@@ -33,7 +35,7 @@ function App() {
 
       <SearchBar  onSearch={handleSearch} />
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4 px-8">
         {filteredProducts.map((gato) => (
           <ProductCard
             key={gato.id}
@@ -45,10 +47,8 @@ function App() {
         ))}
       </div>
 
-      <div className="footer">
-        <h1>Footer</h1>
-      </div>
-    </>
+        <Footer />
+    </div>
   );
 }
 
